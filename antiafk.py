@@ -1,6 +1,6 @@
 #rust anti-afk mover, by deviousname
 
-import keyboard
+import keyboard #install instructions and documentation: https://pypi.org/project/keyboard/
 import time
 import random
 
