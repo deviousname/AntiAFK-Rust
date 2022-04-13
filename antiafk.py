@@ -11,7 +11,7 @@ stop = 'f9' #this key or key combination will stop the script
 class AntiAFK(): #create the class
     def __init__(self): #init the class and add hotkey
         print(f'Adding hotkey: {hotkey} = Toggle Anti AFK')
-        keyboard.add_hotkey(f'{hotkey}', lambda: self.toggle_anti_afk())
+        keyboard.add_hotkey(f'{hotkey}', lambda: self.toggle_anti_afk()) #the start hotkey
         print('Ready') 
         
     def toggle_anti_afk(self): #run this when start hotkey is pressed
