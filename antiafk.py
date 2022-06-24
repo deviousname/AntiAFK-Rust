@@ -24,6 +24,6 @@ class AntiAFK(): #create the class
                 break #stops the loop
             key = random.choice(keys) #pick a random key from the keys list
             keyboard.press_and_release(f'{key}') #press the chosen key briefly
-            time.sleep(1 + random.random()) #sleep for a random time up between 1 and 2 seconds
+            time.sleep(1 + random.random()) #sleep for a random time between 1 and 2 seconds
                                 
 initiate = AntiAFK() #starts AntiAFK script
